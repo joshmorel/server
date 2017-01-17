@@ -115,9 +115,10 @@ thead {
 #remote_address {
 	margin: 0;
 	width: 130px;
-	height: 14px;
+	height: 17px;
 	padding: 6px;
 	padding-right: 24px;
+	margin-right: 4px;
 }
 
 .ie8 #remote_address {
@@ -127,7 +128,7 @@ thead {
 #save #save-button,
 #save #save-button-confirm {
 	margin: 0 5px;
-	height: 28px;
+	height: 31px;
 	padding-bottom: 4px;
 	line-height: 14px;
 }
@@ -137,7 +138,8 @@ thead {
 	background-color: transparent;
 	border: none;
 	margin: 2px 4px !important;
-	right: 0;
+	right: 7px;
+	top: -8px;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 	filter: alpha(opacity=50);
 	opacity: .5;
